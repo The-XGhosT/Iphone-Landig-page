@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding:  5px 10px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+nav img{
+    margin :10px;
+    width: 40px;
+    height: 40px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main .main-top{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.main .main-top .text-main{
+    margin: 200px 50px;
+}
+
+.main .main-top .text-main a{
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 20px;
+    color: black;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    position: relative;
+    top : 15px;
+
+}
+.main .main-top .text-main h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.main .main-top .text-main p{
+    font-size: 20px;
+}
+.main .main-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26.6vh;
+}
+
+
+.main .main-bottom img{
+    width:50px;
+    height: 100px;
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.main .main-bottom img:hover{
+    transform: scale(1.2);
+}
+
