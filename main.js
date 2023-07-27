@@ -1,11 +1,11 @@
 let img = document.querySelector('.image-main');
-let container = document.querySelector('.container');
-function change(phone)
+function change_(phone)
 {
     img.src = phone;
-
+    
 }
 
+let container = document.querySelector('.container');
 function colors(color){
     container.style.background=color;
 }
