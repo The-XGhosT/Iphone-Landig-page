@@ -86,6 +86,7 @@ nav img{
 .main .main-bottom img{
     width:50px;
     height: 100px;
+    margin: 5px;
     transition: 0.3;
     cursor: pointer;
 }
